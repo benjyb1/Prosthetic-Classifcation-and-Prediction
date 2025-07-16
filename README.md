@@ -2,6 +2,7 @@
 
 A machine learning system trained on real-world leg sensor data to predict optimal prosthetic movement, improving gait alignment and mobility for users with lower-limb prosthetics.
 
+![Demo of prediction](GIF.gif)
 ## 🧠 What It Does
 
 This project tackles the problem of intelligent prosthetic control by:
@@ -45,8 +46,6 @@ This prototype is currently under active development. Instructions for setup and
 - Expanded dataset across multiple users and terrains
 - Reinforcement learning for feedback-based control
 
-## 🦿 Demonstration
-![Demo of prediction](GIF.gif)
 
 
 ---
