@@ -45,7 +45,7 @@ This prototype is currently under active development. Instructions for setup and
 - Expanded dataset across multiple users and terrains
 - Reinforcement learning for feedback-based control
 
-DEMO
+## 🦿 Demonstration
 ![Demo of prediction](GIF.gif)
 
 
