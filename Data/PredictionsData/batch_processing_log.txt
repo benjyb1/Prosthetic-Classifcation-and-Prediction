@@ -1,0 +1,93 @@
+Batch Processing Log - Started at 22-Mar-2025 21:09:30
+
+
+==== Processing AB06 ====
+Found 135 strides for subject AB06
+Successfully processed AB06 in 1.36 seconds
+
+==== Processing AB07 ====
+Found 153 strides for subject AB07
+Successfully processed AB07 in 1.42 seconds
+
+==== Processing AB08 ====
+Found 158 strides for subject AB08
+Successfully processed AB08 in 1.52 seconds
+
+==== Processing AB09 ====
+Found 162 strides for subject AB09
+Successfully processed AB09 in 1.57 seconds
+
+==== Processing AB10 ====
+Found 130 strides for subject AB10
+Successfully processed AB10 in 1.31 seconds
+
+==== Processing AB11 ====
+Found 125 strides for subject AB11
+Successfully processed AB11 in 1.20 seconds
+
+==== Processing AB12 ====
+Found 123 strides for subject AB12
+Successfully processed AB12 in 1.21 seconds
+
+==== Processing AB13 ====
+Found 115 strides for subject AB13
+Successfully processed AB13 in 1.14 seconds
+
+==== Processing AB14 ====
+Found 111 strides for subject AB14
+Successfully processed AB14 in 1.08 seconds
+
+==== Processing AB15 ====
+Found 92 strides for subject AB15
+Successfully processed AB15 in 0.92 seconds
+
+==== Processing AB16 ====
+Found 170 strides for subject AB16
+Successfully processed AB16 in 1.59 seconds
+
+==== Processing AB17 ====
+Found 95 strides for subject AB17
+Successfully processed AB17 in 0.94 seconds
+
+==== Processing AB18 ====
+Found 108 strides for subject AB18
+Successfully processed AB18 in 1.04 seconds
+
+==== Processing AB19 ====
+Found 143 strides for subject AB19
+Successfully processed AB19 in 1.34 seconds
+
+==== Processing AB20 ====
+Found 121 strides for subject AB20
+Successfully processed AB20 in 1.15 seconds
+
+==== Processing AB21 ====
+Found 115 strides for subject AB21
+Successfully processed AB21 in 1.11 seconds
+Skipping AB22 (known to be missing)
+
+==== Processing AB23 ====
+Found 128 strides for subject AB23
+Successfully processed AB23 in 1.23 seconds
+
+==== Processing AB24 ====
+Found 120 strides for subject AB24
+Successfully processed AB24 in 1.16 seconds
+
+==== Processing AB25 ====
+Found 222 strides for subject AB25
+Successfully processed AB25 in 2.07 seconds
+Skipping AB26 (known to be missing)
+
+==== Processing AB27 ====
+Found 140 strides for subject AB27
+Successfully processed AB27 in 1.36 seconds
+
+==== Processing AB28 ====
+Found 167 strides for subject AB28
+Successfully processed AB28 in 1.56 seconds
+Skipping AB29 (known to be missing)
+
+==== Processing AB30 ====
+Found 114 strides for subject AB30
+Successfully processed AB30 in 1.14 seconds

@@ -1,0 +1,14 @@
+FeatureName
+emg_vastusmedialis
+emg_vastuslateralis
+emg_rectusfemoris
+emg_bicepsfemoris
+emg_semitendinosus
+emg_gracilis
+imu_thigh_Accel_X
+imu_thigh_Accel_Y
+imu_thigh_Accel_Z
+imu_thigh_Gyro_X
+imu_thigh_Gyro_Y
+imu_thigh_Gyro_Z
+gon_knee_sagittal
