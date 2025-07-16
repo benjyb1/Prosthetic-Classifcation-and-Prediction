@@ -45,10 +45,8 @@ This prototype is currently under active development. Instructions for setup and
 - Expanded dataset across multiple users and terrains
 - Reinforcement learning for feedback-based control
 
-## 🤝 Credits
+![Demo of prediction](GIF.gif)
 
-Developed by Benjatron ([@benjyb1](https://github.com/benjyb1))  
-Inspired by ongoing prosthetics research at the University of Bristol and Bristol Robotics Laboratory.
 
 ---
 
