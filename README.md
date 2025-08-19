@@ -31,10 +31,6 @@ This project draws inspiration from the growing interest in prosthetics research
   - 🦿 [OpenSim](https://opensim.stanford.edu/) for biomechanics simulation
   - 📈 MATLAB for signal processing & visualisation
 
-## 🛠️ Installation (coming soon)
-
-This prototype is currently under active development. Instructions for setup and running inference will be added soon.
-
 ## 📉 Results
 
 - 92.4% classification accuracy across walking, running, stairs, and standing
