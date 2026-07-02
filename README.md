@@ -17,30 +17,37 @@ This project draws inspiration from the growing interest in prosthetics research
 
 ## 🔍 Key Features
 
-- 🔢 **Hybrid CNN-LSTM classifier** for detecting locomotion type from time-series sensor data.
-- 🔮 **LSTM-based prediction model** to forecast ankle flexion during gait cycles.
-- 🧹 **Data preprocessing pipeline** for cleaning and standardising raw sensor input.
-- 🧪 **92.4% accuracy** across all locomotion types.
+- 🔢 **1D CNN classifier** (3 conv blocks, dropout regularisation, stratified split) for detecting locomotion type from a 50ms window of 9-channel sensor data.
+- 🔮 **Sequence-to-sequence prediction models** for ankle flexion during gait — three architectures compared: a dilated-convolution CNN, a plain LSTM, and an LSTM trained with Huber loss for outlier robustness.
+- 🧹 **Data preprocessing pipeline** — per-feature Z-score normalisation fit on train only, temporal (non-shuffled) train/test split to respect gait sequencing.
+- 🧪 **92.4% classification accuracy** across all locomotion types, on a held-out temporal split.
 
 ## 📊 Data & Tools
 
-- **Input data:** Real-world sensor recordings from a wearable system (e.g., IMUs, force plates)
-- **Prediction target:** Joint kinematics (e.g., ankle angles)
+- **Input data:** ~215,000 labelled 50-timestep windows of 9-channel sensor data (IMU/EMG) from a wearable system, drawn from multiple subject recordings.
+- **Prediction target:** ankle sagittal-plane flexion angle, forecast 10ms ahead from the preceding 50ms window.
 - **Tools used:**
-  - 🐍 Python + PyTorch for modeling
-  - 🦿 [OpenSim](https://opensim.stanford.edu/) for biomechanics simulation
-  - 📈 MATLAB for signal processing & visualisation
+  - 🐍 Python — PyTorch for the CNN prediction models, TensorFlow/Keras for the classifier and LSTM variants, scikit-learn for splits/scaling/metrics.
+  - 🦿 [OpenSim](https://opensim.stanford.edu/) referenced for biomechanics context.
 
 ## 📉 Results
 
-- 92.4% classification accuracy across walking, running, stairs, and standing
-- Robust prediction of ankle flexion over a full gait cycle (100 timesteps per step)
+- 92.4% classification accuracy across walking, running, stairs, and standing.
+- Ankle-flexion prediction evaluated with a sliding 10ms-step window over a 200ms test segment, comparing CNN, LSTM, and Huber-loss LSTM on MSE.
+
+## 🚧 Honest limitations
+
+This is exploratory, notebook-driven research code, not a production pipeline — worth being upfront about:
+
+- Trained and evaluated within the same subject(s); cross-subject generalisation is untested.
+- Single train/test split, no k-fold cross-validation on the classifier or CNN predictor.
+- No systematic comparison across the three prediction architectures beyond the metrics each notebook reports individually.
 
 ## 🚧 Future Work
 
-- Real-time integration with prosthetic hardware
-- Expanded dataset across multiple users and terrains
-- Reinforcement learning for feedback-based control
+- Cross-subject validation, to see whether the model generalises beyond the people it was trained on.
+- Real-time integration with prosthetic hardware.
+- Expanded dataset across multiple users and terrains.
 
 
 
